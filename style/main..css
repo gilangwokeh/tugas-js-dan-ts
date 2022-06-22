@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+body {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  color: white;
+  background-color: white;
+}
+nav h1 {
+  font-family: "Rubik Moonrocks", cursive;
+  font-weight: bold;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.text1 {
+  background-color: green;
+  border: 1px solid black;
+}
+
+.text2 {
+  background-color: bisque;
+  font-size: 50px;
+}
+
+p {
+  font-weight: bold;
+  color: white;
+}
+
+button {
+  font-weight: bold;
+  color: red;
+}
+
+.paragragh {
+  font-weight: bold;
+  color: white;
+}
+
+/*# sourceMappingURL=main..css.map */
