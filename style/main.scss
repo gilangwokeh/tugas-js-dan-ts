@@ -4,7 +4,6 @@ body{
     background-color: white;
     padding: 0px;
     margin: 0px;
-    background-color: black;
 }
     $MtColor: salmon;
     @mixin bordered($color,$bold:bold){
@@ -26,32 +25,7 @@ body{
     }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    @include bordered($color : white);
-    @include one ($yellow:white);
-    @include navbar($font:20px);
-
-    h1 {
-        font-family: 'Rubik Moonrocks', cursive;
-        @include bordered($color : black);
-    }
-    ul{
-        display: flex;
-        justify-content: space-around;
-        padding-top: 10px;
-    }   
-    li {
-        list-style: none;
-
-    }
-    a {
-        text-decoration: none;
-        color: white;
-        padding-right: 20px; 
-        @include bordered($color : black)
-      
-    }
+  
 }
 
 .text1 { 

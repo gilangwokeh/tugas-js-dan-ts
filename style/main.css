@@ -4,36 +4,6 @@ body {
   background-color: white;
   padding: 0px;
   margin: 0px;
-  background-color: black;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  font-weight: bold;
-  color: white;
-  background-color: white;
-  font-size: 20px;
-}
-nav h1 {
-  font-family: "Rubik Moonrocks", cursive;
-  font-weight: bold;
-  color: black;
-}
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 10px;
-}
-nav li {
-  list-style: none;
-}
-nav a {
-  text-decoration: none;
-  color: white;
-  padding-right: 20px;
-  font-weight: bold;
-  color: black;
 }
 
 .text1 {
