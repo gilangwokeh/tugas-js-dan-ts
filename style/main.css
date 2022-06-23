@@ -1,9 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Moonrocks&display=swap");
-body {
-  background-color: white;
-  padding: 0px;
-  margin: 0px;
+html, body {
+  background-color: #dedede;
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster", cursive;
+}
+
+nav ul {
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  position: relative;
+}
+nav li > ul {
+  display: none;
+  position: absolute;
+}
+nav li > ul ul {
+  left: 100%;
+  top: 0;
+}
+nav a {
+  color: #fff;
+  display: block;
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+nav li:hover > a {
+  background-color: #eee;
+  color: #333;
+}
+nav li:hover > ul {
+  display: block;
 }
 
 .text1 {
